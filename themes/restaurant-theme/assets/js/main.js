@@ -4,7 +4,10 @@ var scripts =
   // ready function. convenient for running scripts. 
   onReady: function()
   {
-    // initialize skrollr if we're not on mobile
+    // initialize object-fit polyfill
+    objectFitImages('img.cover');
+
+    /*// initialize skrollr if we're not on mobile
     if($('.parallax') && !(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera))
     {
       var s = skrollr.init({
@@ -21,7 +24,7 @@ var scripts =
       offset: 50, // Integer. How far to offset the scrolling anchor location in pixels
       updateURL: true, // Boolean. If true, update the URL hash on scroll
       callback: function ( anchor, toggle ) {} // Function to run after scrolling
-    });
+    });*/
   },
 };
 

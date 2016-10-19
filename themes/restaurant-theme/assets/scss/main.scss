@@ -2,3 +2,9 @@
 @import 'settings';
 
 @include foundation-everything;
+
+img.cover
+{
+  object-fit: cover;
+  font-family: 'object-fit: cover;' // object-fit polyfill
+}
