@@ -11,7 +11,7 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "themes/restaurant-theme/assets/vendor",
+    "themes/blank-theme/assets/vendor",
     "test",
     "tests"
   ],

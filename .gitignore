@@ -6,4 +6,4 @@ storage/cms/twig
 storage/cms/combiner
 storage/framework/cache
 storage/framework/sessions
-themes/restaurant-theme/assets/vendor
+themes/blank-theme/assets/vendor

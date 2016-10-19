@@ -6,7 +6,7 @@ module.exports = function(grunt) {
     sass: {
       options: {
         /** Only use include_paths if extracting elements from Bower */
-        includePaths: ['themes/restaurant-theme/assets/vendor/foundation-sites/assets']
+        includePaths: ['themes/blank-theme/assets/vendor/foundation-sites/assets']
             }, //options
             dist: {
               options: {
@@ -14,7 +14,7 @@ module.exports = function(grunt) {
                 sourceMap: false
               },
               files: {
-                'themes/restaurant-theme/assets/css/main.css': 'themes/restaurant-theme/assets/scss/main.scss'
+                'themes/blank-theme/assets/css/main.css': 'themes/blank-theme/assets/scss/main.scss'
               }
             }
         }, // sass
@@ -61,7 +61,7 @@ module.exports = function(grunt) {
           },
 
           dist: {
-            src: 'themes/restaurant-theme/assets/css/main.css'
+            src: 'themes/blank-theme/assets/css/main.css'
           }
         }, //post css
       });
