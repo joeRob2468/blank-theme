@@ -18,9 +18,10 @@ module.exports = function(grunt) {
               }
             }
         }, // sass
-
         watch: {
           options: {
+            spawn: false,
+            debounceDelay: 250,
             livereload: {
               host: '0.0.0.0',
               //port: 35729
