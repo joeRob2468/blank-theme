@@ -18,10 +18,9 @@ If you plan on using a database, run this command:
 ```shell
 php artisan october:install
 ```
+
 ### Commands
 
-```npm run watch
-``` to compile scss and watch for changes.
+`npm run watch` to compile scss and watch for changes.
 
-```npm run build
-``` to build and minify for production.
+`npm run build` to build and minify for production.
